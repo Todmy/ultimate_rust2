@@ -16,7 +16,9 @@
 // - Document the "orangeness" field, explaining that it is a number from 8 to 27
 
 pub struct Pumpkin {
+    /// A pumpkin, in English-language vernacular, is a cultivated winter squash in the genus Cucurbita.[1][2] The term is most commonly applied to round, orange-colored squash varieties, though it does not possess a scientific definition and may be used in reference to many different squashes of varied appearance.[3]
     pub roundness: f32,
+    /// ![test](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/700px-FrenchMarketPumpkinsB.jpg)
     pub orangeness: i32,
 }
 
